@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/abacus_1f9ee.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="app" class="container">
+      <button @click="AlternaModo" class="button">🔗 Alternar modo</button>
+      <br /><br />
+
+      <div class="img_destaque">
+        <img
+          src="https://img.freepik.com/vetores-gratis/professor-de-matematica-proibindo-o-uso-de-calculadora-ensino-sinal-de-proibicao-no-balao-de-fala-criancas-ilustracao-de-desenho-animado_74855-14451.jpg?size=626&ext=jpg"
+          alt="Menino estudando matemática"
+        />
+      </div>
+
+      <div id="bin2dec" v-if="binario_visivel">
+        <h1>🔢 Binário para decimal</h1>
+        <form @submit="DecimalNumber">
+          <label for="num_binario">Número binário</label>
+          <br />
+          <input
+            type="number"
+            id="num_binario"
+            placeholder="11001"
+            v-model="num_binario"
+            @change="DecimalNumber"
+          />
+        </form>
+      </div>
+
+      <div id="dec2bin" v-else>
+        <h1>🔢 Decimal para binário</h1>
+        <form @submit="BinaryNumber">
+          <label for="num_binario">Número Decimal</label>
+          <br />
+          <input
+            type="number"
+            id="num_decimal"
+            placeholder="125"
+            v-model="num_decimal"
+            @change="BinaryNumber"
+          />
+        </form>
+      </div>
+
+      <br />
+      <button @click="Reset">🗑️ Limpar</button>
+
+      <div id="output">
+        <hr />
+        <div v-if="num_binario > 0 && binario_visivel">
+          <p>
+            <strong>{{num_binario}}</strong> de binário para decimal é igual à 
+          </p>
+          <h1>{{ num_decimal }}</h1>
+        </div>
+        <div v-else-if="num_decimal > 0">
+          <p>
+            <strong>{{num_decimal}}</strong> de decimal para binário é igual à
+          </p>
+          <h1>{{num_binario}}</h1>
+        </div>        
+      </div>
+      <p id="owner">Feito por @manzolimatheus - {{AnoAtual}}</p>
+      <a href="https://github.com/manzolimatheus">
+      <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Github Icon" class="github_icon">
+    </a>
+    </div>
+  </body>
+</html>
