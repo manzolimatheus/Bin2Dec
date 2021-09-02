@@ -2,7 +2,7 @@
 
 ## <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/abacus_1f9ee.png" width="30px"/> Bin2Dec
 
-<img src="https://i.imgur.com/AKAeASf.png" width="100%">
+<img src="https://i.imgur.com/M49n5rA.png" width="100%">
 
 ## Sobre
 **🎓 Descrição**
