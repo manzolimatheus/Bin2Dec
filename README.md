@@ -2,10 +2,11 @@
 
 ## <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/abacus_1f9ee.png" width="30px"/> Bin2Dec
 
-<img src="https://i.imgur.com/HmQTEhY_d.webp?maxwidth=760&fidelity=grand" width="100%">
+<img src="https://i.imgur.com/AKAeASf.png" width="100%">
 
 ## Sobre
 **🎓 Descrição**
+
 Bin2Dec é um simples conversor de número binário para decimal e vice-versa. Fiz esse pequeno projeto como forma de estudo de Vue.js.
 
 **🔥 Funcionalidades**
@@ -24,9 +25,11 @@ Para criar o Bin2Dec utilizei HTML, CSS, JS e VUE.js.
 # F.A.Q.
 
 **🤔 Como utilizar?**
+
 Para utilizar, basta digitar o valor em binário e apertar <kbd>Enter</kbd> ou apenas clicar fora do formulário.
 
 **🤔 Como alterno entre decimal para binário e vice-versa?**
+
 Apenas clique no botão azul "Alternar modo".
 
 <img src="https://i.imgur.com/DRZkf2I.png" width="100%">
