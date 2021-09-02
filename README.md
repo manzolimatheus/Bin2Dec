@@ -16,8 +16,9 @@ Bin2Dec é um simples conversor de número binário para decimal e vice-versa. F
 **👨🏻‍💻 Tecnologias utilizadas**
 
 Para criar o Bin2Dec utilizei HTML, CSS, JS e VUE.js.
-	<img src="https://www.clipartmax.com/png/full/313-3138160_this-flag-is-based-on-the-logos-for-html5-js-html-css.png" width="80px">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" width="80px">
+
+<img src="https://www.clipartmax.com/png/full/313-3138160_this-flag-is-based-on-the-logos-for-html5-js-html-css.png" width="80px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" width="80px">
 
 
 # F.A.Q.
