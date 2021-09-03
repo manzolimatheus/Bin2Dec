@@ -28,8 +28,9 @@ Para criar o Bin2Dec utilizei HTML, CSS, JS e VUE.js.
 
 Para utilizar, basta digitar o valor em binário e apertar <kbd>Enter</kbd> ou apenas clicar fora do formulário.
 
+<div align="center">
 <img src="https://i.imgur.com/8gAmda5.png">
-
+</div>
 
 **🤔 Como alterno entre decimal para binário e vice-versa?**
 
